@@ -23,18 +23,21 @@ public class CPD4414Assignment1ITDazzlers {
     
     public static String stringPower(String str,int n)
     {
-        if(n==1){
+        if(str==""){
             return str;
         }
-        if(n<1){
-            return null;
-        }
-        
-        if (n==2)
-        {
-            str=str+str;
-        }
-        
+//        if(n==1){
+//            return str;
+//        }
+//        if(n<1){
+//            return null;
+//        }
+//        
+//        if (n==2)
+//        {
+//            str=str+str;
+//        }
+//        
         return str;
         
     }
