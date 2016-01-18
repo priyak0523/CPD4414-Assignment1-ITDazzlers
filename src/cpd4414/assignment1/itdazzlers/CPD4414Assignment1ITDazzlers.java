@@ -32,12 +32,12 @@ public class CPD4414Assignment1ITDazzlers {
         if(n<1){
             return null;
         }
-//        
-//        if (n==2)
-//        {
-//            str=str+str;
-//        }
-//        
+        
+        if (n==2)
+        {
+            str=str+str;
+        }
+        
         return str;
         
     }
