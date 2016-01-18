@@ -55,7 +55,7 @@ public class CPD4414Assignment1ITDazzlersTest {
     public void testStringPower() {
         System.out.println("stringPower");
         String str = "";
-        int n = 0;
+        int n = 1;
         String expResult = "";
         String result = CPD4414Assignment1ITDazzlers.stringPower(str, n);
         assertEquals(expResult, result);
@@ -65,8 +65,29 @@ public class CPD4414Assignment1ITDazzlersTest {
     public void testEmptyStringShouldReturnEmptyString(){
         System.out.println("EmptyStringShouldReturnEmptyString");
         String str = "";
-        int n = 0;
+        int n = 1;
         String expResult = "";
+        String result = CPD4414Assignment1ITDazzlers.stringPower(str, n);
+        assertEquals(expResult, result);
+    } 
+    
+    public void testLessThanOneShouldReturnNull(){
+        
+        System.out.println("LessThanOneShouldReturnNull");
+        String str = "";
+        int n = -8;
+        String expResult = null;
+        String result = CPD4414Assignment1ITDazzlers.stringPower(str, n);
+        assertEquals(expResult, result);
+        
+        
+    } 
+    
+    public void testStringAndOneShouldReturnString(){
+        System.out.println("testStringAndOneShouldReturnString");
+        String str = "Hello";
+        int n = 1;
+        String expResult = "Hello";
         String result = CPD4414Assignment1ITDazzlers.stringPower(str, n);
         assertEquals(expResult, result);
     }
