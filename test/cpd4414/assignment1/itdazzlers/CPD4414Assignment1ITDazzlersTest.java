@@ -92,4 +92,13 @@ public class CPD4414Assignment1ITDazzlersTest {
         assertEquals(expResult, result);
     }
     
+    public void testStringAndTwoShouldReturnStringDoubled(){
+        System.out.println("testStringAndTwoShouldReturnStringDoubled");
+        String str = "bob";
+        int n = 2;
+        String expResult = "bobbob";
+        String result = CPD4414Assignment1ITDazzlers.stringPower(str, n);
+        assertEquals(expResult, result);
+    }
+    
 }

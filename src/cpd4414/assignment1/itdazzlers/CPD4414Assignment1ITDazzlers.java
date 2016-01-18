@@ -16,6 +16,9 @@ public class CPD4414Assignment1ITDazzlers {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        //System.out.println(stringPower("bob",2));
+        
     }
     
     public static String stringPower(String str,int n)
@@ -27,6 +30,10 @@ public class CPD4414Assignment1ITDazzlers {
             return null;
         }
         
+        if (n==2)
+        {
+            str=str+str;
+        }
         
         return str;
         
