@@ -26,9 +26,9 @@ public class CPD4414Assignment1ITDazzlers {
         if(str==""){
             return str;
         }
-//        if(n==1){
-//            return str;
-//        }
+        if(n==1){
+            return str;
+        }
         if(n<1){
             return null;
         }
