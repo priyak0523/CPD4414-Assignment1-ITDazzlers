@@ -18,4 +18,10 @@ public class CPD4414Assignment1ITDazzlers {
         // TODO code application logic here
     }
     
+    public static String stringPower(String str,int n)
+    {
+        
+        return str;
+        
+    }
 }
